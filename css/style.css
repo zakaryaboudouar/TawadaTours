@@ -1,0 +1,150 @@
+/*
+
+
+First Color : #8d6e63
+Second Color : #ec1c23
+*/
+
+/*Start Navbar*/
+
+.sticky-top{
+	background-color: #ffce4e 
+}
+
+.navbar-brand span:first-child{
+	font-weight: bold;
+	color: #4e342e 
+}
+
+.navbar-brand span:last-child{
+	color: #795548 
+	}
+	
+ .navbar-nav .nav-link {
+	
+	margin-left: 25px;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #4e342e  !important;
+
+	}
+
+	/*Link Active*/
+	.navbar-nav .active > .nav-link {
+		font-weight:600; 
+		color: #6d4c41   !important;  
+		font-weight: bold;		
+	}
+
+	.navbar-nav .nav-item:hover{ 
+		font-weight:bold;
+	}
+	.navbar-nav .nav-item{
+		text-align: center;
+		color: #8d6e63;  
+	}
+	/*
+End Navbar 
+
+/*Slider*/
+.slider{ 
+}
+.slider .carousel-item img{
+	width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+.slider .carousel-inner h1{
+	color: #ffffff;
+	position: absolute;
+	z-index: 3;
+}
+ 
+.slider .carousel-item{
+	-webit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+}
+
+/*End Slider*/
+ /*start tawada-text*/
+.tawada-text{
+	padding: 50px 5px;
+	background-color: #fff8e1 ;
+	text-align: center;
+}
+ .tawada-text h3{
+	font-family: 'Open Sans', sans-serif;
+	color: #4e342e;
+ }
+ .tawada-text h1{
+	 color: #6d4c41;
+ }
+
+ .tawada-text p{
+	 color: #795548 ;
+ }
+
+ /*end tawada text */
+
+
+ /*Start Offer-card*/
+ .offer-card{
+	 margin-top: 30px; 
+ }
+ .offer-card .card {
+	 padding: 0;
+	 margin: 10px;
+}
+
+.offer-card .card h4{
+	color: #4e342e;
+}
+.offer-card .card p{
+	color: #795548;
+}
+.offer-card .card .btn-card{
+	background-color: #ffce4e;
+	color: #4e342e;
+
+}
+
+ /*End Offer-card*/
+/*start Footer*/
+.footer{
+	background-color: #ffce4e;
+	margin-top: 50px;
+	padding: 50px;
+}
+ .footer span:first-child{
+	font-weight: bold;
+	color: #795548;
+	font-size: 25px;
+
+}
+
+.footer .second-child{
+	color: #795548;
+	font-size: 25px;
+	}
+
+.footer a,.footer p,.footer h4{
+	color: #795548;
+}
+.footer a:hover{
+	background-color: #ffce4e;
+	color:#795548;
+}
+
+.footer .fa{
+	padding-top:20px;
+}
+.under-footer{
+	background-color: #795548;
+	color: #ffce4e;
+}
+.under-footer p{
+	text-align: center;
+	padding-top: 10px;
+}
